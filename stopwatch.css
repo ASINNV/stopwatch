@@ -74,7 +74,6 @@ body {
 }
 .running .switch {
 	display: block;
-
 }
 .watch {
 	font-weight: 900;
@@ -88,6 +87,7 @@ body {
 }
 .left, .switch {
 	float: left;
+	-webkit-user-select: none;
 }
 .left-circle, .right-circle, .stop-circle {
 /*	position: relative;*/
