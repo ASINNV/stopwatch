@@ -1,0 +1,1 @@
+$(document).ready(function(){function t(){r>99?(r=0,s++):s>59?(s=0,a++):r++,d.text(10>r?"0"+r:r),l.text(10>s?"0"+s:s),u.text(10>a?"0"+a:a)}var e=$(".interface"),n=$(".stop-circle"),c=$(".left-circle"),i=$(".left"),r=0,s=0,a=0,d=$("#hundredths"),l=$("#seconds"),u=$("#minutes");c.click(function(){var n=setInterval(t,10);e.addClass("running")})});
